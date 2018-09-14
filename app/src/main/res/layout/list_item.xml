@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayout">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        style="@style/TitleTextView"
+        tools:text="Title of News Story Here - and it very well could be two lines, so here you go."/>
+
+    <RelativeLayout
+       style="@style/RelativeLayout">
+        <TextView
+            android:id="@+id/section_text"
+            style="@style/SectionHeader"
+            tools:text="Section:"/>
+        <TextView
+            android:id="@+id/date_text"
+            style="@style/DateHeader"
+            tools:text="Published:"/>
+        <TextView
+            android:id="@+id/author_text"
+            style="@style/AuthorHeader"
+            tools:text="Author:"/>
+        <TextView
+            android:id="@+id/section_view"
+            style="@style/SectionView"
+            tools:text="Section Here"/>
+        <TextView
+            android:id="@+id/date_view"
+            style="@style/DateView"
+            tools:text="Publish Date and Time"/>
+        <TextView
+            android:id="@+id/author_view"
+            style="@style/AuthorView"
+            tools:text="Author Here"/>
+    </RelativeLayout>
+</LinearLayout>
